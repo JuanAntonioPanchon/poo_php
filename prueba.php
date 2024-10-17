@@ -1,7 +1,8 @@
 <?php
-//Para importar el archivo se usa esta linea de codigo
+//Para importar el archivo se usa esta linea de codigo, siempre se ha de importar para ser utilizado.
 require_once 'Cliente.php';
 require_once 'ProductoFisico.php';
+
 //Prueba de cliente
 $c1 = new Cliente("Juan Antonio");
 $c2 = new Cliente ("Maite Lopez");
